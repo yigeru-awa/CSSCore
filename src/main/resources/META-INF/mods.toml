@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="[47,)"
+[[mods]]
+modId="csscore"
+version="1.0"
+displayName="CSS Core"
+authors="OneHumanAwa"
+description='''A Core Mod for modpack Create the Steel Symphony'''
+[[dependencies.csscore]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.csscore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.csscore]]
+    modId = "create"
+    mandatory = true
+    versionRange = "[0.5.1.j,6.0)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.csscore]]
+    modId = "jei"
+    mandatory = false
+    versionRange = "[15,)"
+    ordering = "NONE"
+    side = "BOTH"
