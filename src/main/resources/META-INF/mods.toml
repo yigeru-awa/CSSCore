@@ -5,7 +5,7 @@ license="[47,)"
 modId="csscore"
 version="1.0"
 displayName="CSS Core"
-authors="OneHumanAwa"
+authors="OneHumanAwa, Leaf-Lizhanyu"
 description='''A Core Mod for modpack Create the Steel Symphony'''
 [[dependencies.csscore]]
     modId="forge"
